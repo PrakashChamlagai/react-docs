@@ -5,6 +5,9 @@ import Welcome from './components/fnComponent'
 import Comment from './components/Comment'
 import Greeting from './components/Greeting'
 import LoginControl from './components/LoginControl';
+import Textarea from './components/Textarea'
+import EssayForm from './components/Textarea';
+import Calculator from './components/BoilingVerdict';
 
 
 const comment = {
@@ -33,6 +36,10 @@ function App() {
 
          <LoginControl />
 
+         <EssayForm />
+         
+         <hr />
+         <Calculator />
        </div>
    )
 } 
